@@ -54,7 +54,6 @@ main .main__welcome{
 	padding: 200px 0 410px 0;
 }
 main .main__welcome p{
-	margin-top: 20px;
 	color: #999999;
 	font-size: 20px;
 }
@@ -65,6 +64,9 @@ main .main__welcome h1{
 	color: #999999;
 	font-size: 44px;
 	font-weight: normal;
+}
+.main__welcome h1:after{
+	display: none;
 }
 .mycompany{
 	color: #fcac45;
@@ -288,10 +290,22 @@ h1:after{
 	padding-top: 30px;
 	border-bottom: 3px solid #fcac45;
 }
-
-
-
-
+footer{
+	width: 100%;
+	height: auto;
+	background: #222222;
+	padding: 30px 0 30px 0;
+}
+.social{
+	display: flex;
+	justify-content: center;
+}
+.social img{
+	margin-left: 12px;
+}
+.social img:hover{
+	opacity: 0.6;
+}
 
 
 
