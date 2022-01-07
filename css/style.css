@@ -226,13 +226,10 @@ main .main__about{
 .contact__form{
 	padding: 100px 0 100px 0;
 }
-.contact__form h1, p{
+.contact__form h1,p{
 	text-align: center;
 }
-.contact__form h1{
-	color: #000;
-	margin-bottom: 30px;
-}
+
 .contact_wrapper{
 	width: 753px;
 	margin: 0 auto;
@@ -240,6 +237,10 @@ main .main__about{
 }
 .red{
 	color: red;
+}
+.contact__form h1{
+	color: #000;
+	margin-bottom: 30px;
 }
 .form__inputs{
 	margin-top: 100px;
