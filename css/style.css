@@ -50,7 +50,7 @@ main{
 }
 main .main__welcome{
 	background: #000;
-	text-align: left;
+	text-align: center;
 	padding: 200px 0 410px 0;
 }
 main .main__welcome p{
